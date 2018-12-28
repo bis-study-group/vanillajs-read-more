@@ -8,7 +8,6 @@ moreButton.addEventListener("click", function() {
     // HTMLを追加する
     output.appendChild(buildHTML(response.data.items));
     // 最後のページであれば「もっと見る」ボタンは隠す
-    /* Insert code here... */
     if (response.data.last) {
       moreButton.classList.add("hidden");
       //5秒で初期化
